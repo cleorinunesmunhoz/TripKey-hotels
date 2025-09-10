@@ -1,0 +1,28 @@
+{
+  "name": "tripkey-hotels",
+  "version": "1.0.0",
+  "description": "- [x] ID0 - Prototipa interfaces adaptáveis para no mínimo os tamanhos de tela mobile e desktop, usando ferramentas de design como Figma, Quant UX ou Sketch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleorinunesmunhoz/TripKey-hotels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleorinunesmunhoz/TripKey-hotels/issues"
+  },
+  "homepage": "https://github.com/cleorinunesmunhoz/TripKey-hotels#readme",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "abc": "^0.6.1",
+    "gh-pages": "^6.3.0"
+  }
+}
