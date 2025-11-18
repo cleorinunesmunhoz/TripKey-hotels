@@ -1,0 +1,134 @@
+/* ============================= */
+/* BASE */
+/* ============================= */
+body {
+  background: #0f1412;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  background: #0f1412;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.nav-custom {
+  background: #0f1412 !important;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #222;
+}
+
+.brand-logo {
+  font-size: 2rem !important;
+}
+
+.menu-desktop li a {
+  font-size: 1.1rem;
+}
+
+.search-field input {
+  height: 40px;
+  margin-top: 20px;
+  border-bottom: 1px solid #444 !important;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.btn-login {
+  background: #1d2422 !important;
+  border-radius: 8px;
+}
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+
+.hero-section {
+  padding: 80px 0;
+  background: #0f1412;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+
+.search-box {
+  background: #1a1f1d;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.search-box input {
+  background: #121615;
+  border: none;
+  border-radius: 8px;
+  padding-left: 12px;
+  color: #fff;
+}
+
+.search-btn {
+  background: #00b894 !important;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
+/* ============================= */
+/* MAIN CONTENT */
+/* ============================= */
+
+.main-content {
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+main h4 {
+  font-size: 2.5rem;
+}
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .search-box {
+    padding: 20px;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+}
